@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+*{
+    background-color: antiquewhite;
+}
+h1{
+    font-family: 'Mynerve', cursive;
+    font-size: 85px;
+    font-style: oblique;
+    font-weight: 700;
+    color: #C82A54;
+    text-align: center;
+}
+
+#caja{
+    border: #C82A54 solid 5px;
+    width: 200px;
+    height: 50%;
+    float: left;
+}
+
+#caja2{
+    border: #C82A54 solid 5px;
+    width: 600px;
+    height: 100px;
+    float: left;
+    position: fixed;
+}
+
+#caja3{
+    border: #C82A54 solid 5px;
+    width: 200px;
+    height: 50%;
+    float:right;
+}
+
+a:hover{
+    background-color: aqua;
+    cursor: no-drop;
+}
+
+a:visited{
+    color: #C82A54;
+}
+
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
